@@ -1,0 +1,86 @@
+.nav-bartotal{
+    
+    width: $max-width;
+ 
+        .nav-barwrapper{
+            height: $navb-height;
+            margin-right: 40px;
+            display: flex;
+ 
+               .box1{
+                   width: 675px;
+                   height: $navb-height;
+                   display: flex;
+                   align-items: center;
+ 
+                       .box1-leftmenu-nav{
+                            margin-left: 29.5px;
+ 
+                            ul{
+                                display: flex;
+                                margin: 0;
+ 
+                                  li{
+                                      margin-right: 24px;
+                                      list-style: none;
+ 
+ 
+                                          a{
+                                              text-decoration: none;
+                                              color: black;
+                                              text-transform: capitalize;
+                                              font-size: 14px;
+                                              margin-right: 6px;
+                                             
+                                              
+                                          }
+                                          .down-arrow{
+                                              width:8px ;
+                                              height:4,57px ;
+                                          }
+                                          
+                                          &:last-child{
+                                              margin-right: 0;
+                                          }
+                                  }
+                                  
+                            }
+                       }
+                       ._icon{
+                           margin-left: 40px;
+                           width: 19,48px;
+                           height: 26px;
+                       }
+                       .icon-link{
+                             margin-left: 40px;
+                            }
+               }
+               .box2{
+                   height: $navb-height;
+                   width: 600px;
+                   display: flex;
+                  justify-content: flex-end;
+                  align-items: center;
+                   
+                     a{
+                         text-decoration: none;
+                         color: black;
+                         font-size: 14px;
+                         margin-left: 24px;
+                     }
+                     .icn{
+                         margin-left: 26px;
+                         font-size: 14px;
+ 
+                         &:last-child{
+                             margin-right: 22px;
+                         }
+                     }
+                     .downarrow{
+                         margin-left: 6px;
+                     }
+ 
+               }//
+        }
+ }
+ 

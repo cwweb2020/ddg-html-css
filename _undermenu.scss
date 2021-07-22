@@ -1,0 +1,33 @@
+.underfooter{
+    width: 100%;
+    background: #3A3D3F;
+
+
+    .underfooter-wrapper{
+        height: 42px;
+        margin: 0 72px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .box1{
+            h3{
+                font-size: 11px;
+                font-weight: 400;
+                color: white;
+            }
+        }
+        .box2{
+            a{
+                font-size: 11px;
+                font-weight: 400;
+                opacity: 0.6;
+                color: white;
+                text-decoration: none;
+                margin-left: 43px;
+            }
+
+        }
+
+    }
+}

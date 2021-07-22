@@ -1,0 +1,371 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:"Avenir LT W01_35 Light1475496";
+    background: #FFFDFB;
+    margin: 0 auto;
+    // width: 1280px;
+    max-width: 1280px;
+}
+
+// TIMES FONT
+$times-font: 'TimesNow-SemiLight';
+
+// SPEZIA FONT
+$spezia-font: 'Spezia', sans-serif;
+
+$herobackg:#FF671F;
+$max-width: 100%;
+$brows-bar-height:53px;
+$navb-height:70px;
+$hero-height :608 px;
+
+@mixin font-styles ($color, $size, $weight) {
+     color: $color;
+     font-size: $size;
+     font-weight: $weight;
+}
+
+.side-padding-limit{
+    padding-left: 144px;
+    padding-right: 144px;
+}
+.space{
+    opacity: 0;
+}
+
+h3,h2{
+    font-size: 14px;
+    margin: 0;
+}
+ 
+//   ------FONTS------
+$avenir-medium: "Avenir LT W01_65 Medium1475538", sans-serif;
+
+// AVENIR BOLD
+$avenir-bold: "Avenir LT W01_95 Black_1475562", sans-serif;
+
+//  medium selected
+.avenir-medium{
+    font-family: "Avenir LT W01_65 Medium1475532";
+}
+// TIMES FONT
+$times-sem-light: "TimesNow-SemiLight", serif;
+
+
+.times-light{
+    font-family: "TimesNow-Light";
+}
+.times-sem-light{
+    font-family: "TimesNow-SemiLight";
+}
+@font-face{
+    font-family:"times semi light it";
+    src:url("timesSemlightIt.woff2") format("woff2"),url("timesSemlightIt.woff") format("woff");
+}
+.times-sem-light-it{
+    font-family:"times semi light it";
+}
+// SPEZIA
+// $spezia-font: "spezia", sans-serif;
+
+.spezia{
+    font-family: "spezia";
+}
+
+// GENERAL CSS RATIO IMAGE STYLES SET GLOBAL CSS STYLES
+.galtotal{
+    width: 320px;
+    overflow: hidden;
+    
+
+     .galwrap{
+         padding-top: calc( 100% / (4/4) );
+         position: relative;
+        
+
+           .galratio{
+               position: absolute;
+               top: 0;
+               left: 0;
+               bottom: 0;
+               right: 0;
+                 
+                  img{
+                     width: 100%;
+                  }
+
+           }
+     }
+}
+
+// GENERAL CSS FOR PICS IN AMY`S SUCCESS STORY SECTION
+.galtotal2{
+    width: 272px;
+    height: 297px;
+    overflow: hidden;
+    
+
+     .galwrap2{
+         padding-top: calc( 100% / (4/4) );
+         position: relative;
+        
+
+           .galratio2{
+               position: absolute;
+               top: 0;
+               left: 0;
+               bottom: 0;
+               right: 0;
+                 
+                  img{
+                     width: 100%;
+                  }
+
+           }
+     }
+}
+
+
+///////////////////////////////////// 
+// some bootstrapmine
+.dis-flex{
+    display: flex;
+    align-items: center;
+}
+
+
+//////////  IMPORTS
+
+@import 'header';
+@import 'hero';
+@import 'success-story';
+@import 'book';
+@import 'takedeepdive';
+@import "twocardstyle";
+@import "instag";
+@import "instag-footer";
+@import "footer";
+@import "undermenu";
+@import "featuredp";
+@import "skincaredp";
+@import "skinconcern-dp";
+@import "communitydp";
+@import "PDPstyles";
+@import "collectionstyles";
+@import "homemobile";
+
+
+
+
+
+
+
+
+
+.our-philosophy{
+    margin: 187px 0 0 0;
+
+        p{
+            font-size: 32px;
+            font-family: $times-font;
+            font-weight: 400;
+            color: #000000cf;
+
+               .of{
+                   font:{
+                       size: 12px;
+                       weight:400;
+                   }
+                   margin: 0 20px 0 0;
+                   
+               }
+
+               ._underline{
+
+                text-decoration: underline 2px solid;
+            }
+        }
+}
+
+.bs-total{
+    margin-top: 104px;
+    padding-bottom: 50px;
+
+    .bs-titles{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+           .shop-bs{
+               font-size: 14px;
+               color: #FF671F;
+           }
+
+             h2{
+                 font-size: 24px;
+                 font-weight: 800;
+               }
+    }
+    .bs-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+          .bs-card{
+
+                  .bs-card-body{
+                      font-size: 13.5px;    
+                      padding-bottom: 20px;      
+                  }
+          }
+    }
+
+      
+}
+
+.build-yo-sec{
+    width: 100%;
+    height: 689px;
+    background: #FAF5F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+
+        .byosec-wrapper{
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2;
+              
+                .box1{
+                    width: 496px;
+                    height: 489px;
+                       
+                       img{
+                           width: 100%;
+                       }
+                       .title-1{
+                        position: absolute;
+                        top: 292px;
+                        font-size: 78px;
+                        left: 72px;
+                        font-family: $times-font;
+                        font-weight: 400;
+                        color: #3A3D3F;
+                          .your{
+                              font-weight: 300;
+                          }
+                       }
+                }
+                .box2{
+                    width: 496px;
+                    height: 489px;
+                       
+                       img{
+                           width: 100%;
+                       }
+                       .title-2{
+                        position: absolute;
+                        top: 297px;
+                        font-size: 70px;
+                        left: 720px;
+                        font-weight: 600;
+                        width: 488px;
+                        text-align: end;
+                        color: #3A3D3F;
+                       }
+                }
+        }
+        h3{
+            text-align: center;
+            font-size: 15px;
+            position: absolute;
+            bottom: 41px;
+            font-weight: 600;
+            z-index: 2;
+        }
+        .overlay{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+}
+
+.succ-story-total{
+    width: 100%;
+
+       .succ-story-wrapper{
+           display: flex;
+
+              .box1{
+                 
+                   .pictures-container{
+                       display: flex;
+                   }
+              }
+       }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

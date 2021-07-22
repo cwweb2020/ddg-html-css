@@ -1,0 +1,172 @@
+.skinconcern-dp{
+    width: 1280px;
+    z-index: 100;
+    background: white;
+    padding-top: 35px;
+    padding-bottom: 80px;
+
+    position: absolute;
+    top: 0;
+    display: none;
+
+    background: #FFFDFB;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06);
+
+     .skinconcern-wrapper{
+        width: 1064px;
+        margin: auto;
+        display: flex;
+        background-color: #FFFDFB;
+        height: 278px;
+
+          .skinconcern-box1{
+              flex-basis: 50%;
+              display: flex;
+
+               .scdb-box{
+                   flex-basis: 33.33%;
+                   
+                   .skintitulo{
+                       font-size: 12px;
+                       font-weight: 400;
+                       color: #8A8D8F;
+                   }
+                   ul{
+                    //    margin-top: 16px;
+                       margin: 0;
+                       padding: 0;
+
+                        li{
+                            list-style: none;
+                            margin-top: 16px;
+
+                             a{
+                                 text-decoration: none;
+                                 color: #3A3D3F;
+                                 font-size: 14px;
+                                 font-weight: 800;
+                             }
+                        }
+                   }
+               }
+          }
+          .skinconcern-box2{
+              flex-basis: 50%;
+             
+              
+               .scb2-wrapp{
+                   display: flex;
+
+                    .scb2-left{
+                        // flex-basis: 271px;
+                        background-color: #FF671F;
+
+                        .scb2left-container{
+                            width: 271px;
+                            overflow: hidden;
+                            position: relative;
+                        
+                            .scb2left-picwrapp{
+                                padding-top: calc((271px * 102,5830258302583) / 100);
+                                display: block;
+                            }
+                        
+                            .scb2bgleft-ratio{
+                                  position: absolute;
+                                  top: 0;
+                                  left: 0;
+                                  bottom: 0;
+                                  right: 0;
+                                  width: 100%;
+
+                                  
+                                  display: flex;
+                                  align-items: center;
+                                  flex-direction: column;
+
+                                   h3{
+                                       margin-top: 56px;
+                                       font-size: 12px;
+                                       font-weight: 400;
+                                       color: #FFFDFB;
+                                       font-family: $spezia-font;
+                                   }
+                                   .scb2-lefttitles{
+                                      margin-top: 22px;
+                                      margin-bottom: 56px;
+
+                                    h2{
+                                        font-size: 36px;
+                                        font-weight: 500;
+                                        color: #FFFDFB;
+                                        font-family: $spezia-font;
+                                         
+                                           .times{
+                                               font-family: 'Times New Roman', Times, serif;
+                                               font-weight: 300;
+                                               font-style: italic;
+                                           }
+                                       }
+                                   }
+
+
+
+                            }
+                        
+
+                        }
+                    }
+                    .scb2-right{
+                        position: relative;
+
+
+                        .scb2-container{
+                            width: 237px;
+                            overflow: hidden;
+                            position: relative;
+                        
+                            .scb2-picwrapp{
+                                padding-top: calc((237px * 117,2995780590717) / 100);
+                                display: block;
+                               
+                            }
+                        
+                            .scb2bg-ratio{
+                                  position: absolute;
+                                  top: 0;
+                                  left: 0;
+                                  bottom: 0;
+                                  right: 0;
+                                  width: 100%;
+
+                                  img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
+                            }
+                        
+
+                        }
+                        button{
+                            color: #FFFDFB;
+                            font-size: 14px;
+                            font-weight: 800;
+                            padding: 16px 32px;
+                            border: none;
+
+                            
+                            position: absolute;
+                            bottom: 8px;
+                            left: 8px;
+                            width: 221px;
+                            height: 51px;
+                            background: rgba(255, 255, 255, 0.18);
+                            box-shadow: 0px 4px 20px rgba(58, 61, 63, 0.07);
+                            backdrop-filter: blur(14px);
+                        }
+                    }
+               }
+          }
+     }
+}

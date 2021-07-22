@@ -1,0 +1,58 @@
+.side-padding-limit{
+
+      .twocardsec-total{
+          margin-top: 48px;
+          width: 992px;
+          height: 442px;
+          position: relative;
+
+            .cardcontainer{
+
+                .tarjeta-total{
+                    border-radius: 8px;
+                    position: absolute;
+                    right: 40px;
+                    bottom: 24px;
+
+                    .card-wrapper{
+                        width: 369px;
+                        height: 128px;
+                        display: flex;
+                        padding: 16px;
+                        background-color: #FFFDFB;
+                        margin: 8px 0;
+                         
+                        .pic-box{
+                             width: 89px;
+                             height: 96px;
+                             margin-right: 14px;
+                             border-radius: 4px;
+
+                               img{
+                                   width: 100%;
+                               }
+                         }
+                         .cajacontent{
+                             h3{
+                                 font-size: 10px;
+                                 font-weight: 400;
+                             }
+                             h2{
+                                 font-size: 15px;
+                                 font-weight: 800;
+                                 margin-top: 12px;
+                             }
+                             .down-text{
+                                 font-size: 13px;
+                                 font-weight: 400;
+                                 margin-top: 10px;
+                             }
+                         }
+                         
+                    }
+                    
+                }
+            }
+
+      }
+}

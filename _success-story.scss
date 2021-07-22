@@ -1,0 +1,74 @@
+.succ-story-total{
+    width: 100%;
+    padding-top: 88px;
+
+      .succ-story-wrapper{
+          width: 992px;
+          display: flex;
+          justify-content: space-between;
+
+            .box1{
+                flex-basis: 560px;
+
+                 .pictures-container{
+                     display: flex;
+                     justify-content: space-between;
+
+                      img{
+                          width: 272px;
+                          height: 297px;
+                      }
+                 }
+                 ._article{
+                    
+                     h2{
+                        font-size: 24px;
+                        font-weight: 800;
+                        margin-top: 51px;
+                     }
+                     h3{
+                         font-size: 12px;
+                         font-weight: 400;
+                         margin-top: 16px;
+                     }
+                     p{
+                         font-size: 14px;
+                         font-weight: 400;
+                         margin-top: 16px;
+                         width: 488px;
+                         line-height: 24,92px;
+                         text-align: justify;
+                    .colored{
+                              color: #FF671F;
+                          }
+                     }
+                     .read-a-s{
+                         font-size: 14px;
+                         font-weight: 800;
+                         margin-top: 32px;
+                         color: #FF671F;
+                     }
+                 }
+            }
+
+            // box II
+            .box2{
+                flex-basis: 416px;
+                  .eforelisa{
+                      width: 416px;
+                      height: 592px;
+                  }
+
+                  .text-box{
+                      position: relative;
+
+                         .script{
+                             position: absolute;
+                             bottom: 24px;
+                             left: 24px;
+
+                         }
+                  }
+            }
+      }
+}

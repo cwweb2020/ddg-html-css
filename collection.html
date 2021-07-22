@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="MyFontsWebfontsKit.css">
+    <link rel="stylesheet" href="demo-async.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>collection page</title>
+</head>
+<body>
+  <section class="main-collection"> 
+
+
+
+      <h3 class="collection-page-title avenir-medium">Shop our best sellers and <span class="times-light"><i>top rated</i> </span> products</h3>
+
+      <!-- SECTIONS WRAPPER -->
+      <section class="collection-sections-wrapper">
+          
+          <!-- SECTION LEFT SECTION-->
+         <section class="collection-left-section">
+               <h3 class="filter-coll spezia">FILTER BY</h3> 
+               <div class="colapsable-coll-left">
+      <div id="skc" class="dis-flex"> <span id="circle1" class="circle"></span> <div class="colap-item"><h5>Skin Concern</h5><img class="coll-arrowup" src="img/colap-arrowdown.svg" alt=""></div> </div>
+                <h6 id="filterSelected" class="filter-selected"></h6>
+                <ul id="sideMenu" class="active-collection-style">
+                 <li class="check fl"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Fine Lines</h5></li>
+                 <li class="check lf"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Loss of Firmness</h5></li>
+                 <li class="check ds"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Dark Spots</h5></li>
+                 <li class="check dull"><img src="img/check-coll.svg" alt=""> <span class="space">//.</span><h5>Dullness</h5></li>
+                 <li class="check us"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Uneven Skin</h5></li>
+                 <li class="check pt"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Pass through</h5></li>
+                 <li class="check pc"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Pore Control</h5></li>
+                 <li class="check dw"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Deep Wrinkles</h5></li>
+                 <li class="check acne"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Acne</h5></li>
+               </ul>
+                  <hr>
+                <div class="colap-item"><h5>Skin Type</h5><img src="img/colap-arrowdown.svg" alt=""></div>
+                <hr>
+       <div id="categ" class="dis-flex"> <span id="circle2" class="circle"></span> <div class="colap-item"><h5>Category</h5><img class="coll-arrowup2" src="img/colap-arrowdown.svg" alt=""></div> </div>
+                  <h6 id="picked" class="filter-selected"></h6>
+                  <ul id="sideMenu2" class="active-collection-style">
+                   <li class="check2"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Devices</h5></li>
+                   <li class="check2"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Peels</h5></li>
+                   <li class="check2"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Moisturizers</h5></li>
+                   <li class="check2"><img src="img/check-coll.svg" alt=""> <span class="space">//.</span><h5>Cleansers</h5></li>
+                   <li class="check2"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Serums</h5></li>
+                   <li class="check2"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Sun Protection & Tanner</h5></li>
+                   <li class="check2"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Body</h5></li>
+                   <li class="check2"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Eye Care</h5></li>
+                   <li class="check2"><img src="img/check-coll.svg" alt=""><span class="space">//.</span> <h5>Acne Solutions</h5></li>
+                 </ul>
+                <hr>
+                <div class="colap-item"><h5>Collection</h5><img src="img/colap-arrowdown.svg" alt=""></div>
+                <hr>
+                <div class="colap-item"><h5>Ingredient</h5><img src="img/colap-arrowdown.svg" alt=""></div>
+                <hr>
+                <button id="clearFilter" class="clear-filter">Clear filters</button>
+            </div>
+
+        </section>
+   
+        <!-- SECTION RIGHT SECTION-->
+        <section class="collection-right-section">
+           <h5 class="sortby">Sort by: Featured <span class="space">.</span><img src="icons/down-coll-arrow.svg" alt="downarrow"></h5>
+         <div id="cardCointainer" class="card-collection-container">    <!-- this cointains the cards -->
+              <!-- card -->
+             <div class="singlecard-coll">
+              
+                     <!-- pic space -->
+                       <div class="colcard-container">
+                        <div class="colcard-picwrapp">
+                           <div class="colcardbg-ratio">
+                              <img src="img/img-card2.png" alt="">
+                         </div>
+                       </div>
+                    </div>
+            <!-- pic space -->
+                
+                 <div class="bs-card-body">
+                       <h3 class="coll-firstitle"><span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span></h3>
+                     <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b>  </h3>
+                      <p class="coll-thirdtitle">Daily treatment for clinical results at home. </p>
+                      <p class="price">$ 50</p>
+                 </div>
+            
+             </div>
+              <!-- card -->
+
+           <!-- card -->
+         <div class="singlecard-coll">
+              
+                <!-- pic space -->
+                  <div class="colcard-container">
+                   <div class="colcard-picwrapp">
+                      <div class="colcardbg-ratio">
+                         <img src="img/firstcointainercoll-2.png" alt="">
+                    </div>
+                  </div>
+               </div>
+       <!-- pic space -->
+           
+            <div class="bs-card-body">
+                  <h3 class="coll-firstitle"><span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span></h3>
+                <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b>  </h3>
+                 <p class="coll-thirdtitle">Daily treatment for clinical results at home. </p>
+                 <p class="price">$ 50</p>
+            </div>
+       
+        </div>
+         <!-- card -->
+
+             <!-- card -->
+                 <div class="singlecard-coll">
+              
+                        <!-- pic space -->
+                          <div class="colcard-container">
+                           <div class="colcard-picwrapp">
+                              <div class="colcardbg-ratio">
+                                 <img src="img/firstcointainercoll-3.png" alt="">
+                            </div>
+                          </div>
+                         
+                       </div>
+               <!-- pic space -->
+                   
+                    <div class="bs-card-body">
+                          <h3 class="coll-firstitle"><span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span></h3>
+                        <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b>  </h3>
+                         <p class="coll-thirdtitle">Daily treatment for clinical results at home. </p>
+                         <p class="price">$ 50</p>
+                    </div>
+               
+                </div>
+          <!-- card -->
+         <div class="singlecard-coll">
+              
+                <!-- pic space -->
+                  <div class="colcard-container">
+                   <div class="colcard-picwrapp">
+                      <div class="colcardbg-ratio">
+                         <img src="img/firstcointainercoll-4.png" alt="">
+                    </div>
+                  </div>
+                  <button class="quickview">Quickview</button>
+               </div>
+       <!-- pic space -->
+           
+            <div class="bs-card-body">
+                  <h3 class="coll-firstitle"><span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span></h3>
+                <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b>  </h3>
+                 <p class="coll-thirdtitle">Daily treatment for clinical results at home. </p>
+                 <p class="price">$ 50</p>
+            </div>
+       
+        </div>
+         <!-- card -->
+
+    <div class="singlecard-coll">
+              
+            <!-- pic space -->
+              <div class="colcard-container">
+               <div class="colcard-picwrapp">
+                  <div class="colcardbg-ratio">
+                     <img src="img/first-coll-secrow.png" alt="">
+                </div>
+              </div>
+           </div>
+   <!-- pic space -->
+       
+   <div class="bs-card-body">
+    <h3 class="coll-firstitle">
+        <span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+    </h3>
+    <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+    <p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+    <p class="price">$ 50</p>
+ </div>
+
+   
+    </div>
+     <!-- card -->
+
+     <div class="singlecard-coll">
+              
+        <!-- pic space -->
+          <div class="colcard-container">
+           <div class="colcard-picwrapp">
+              <div class="colcardbg-ratio">
+                 <img src="img/roprated-call-card.png" alt="">
+            </div>
+          </div>
+           <button class="toprated-button spezia">TOP RATED</button>
+       </div>
+<!-- pic space -->
+   
+    <div class="bs-card-body">
+          <h3 class="coll-firstitle"><span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span></h3>
+        <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b>  </h3>
+         <p class="coll-thirdtitle">Daily treatment for clinical results at home. </p>
+         <p class="price">$ 50</p>
+    </div>
+
+</div>
+ <!-- card -->
+    <!-- THREE MORE CARDS -->
+    <div class="singlecard-coll">
+              
+      <!-- pic space -->
+        <div class="colcard-container">
+         <div class="colcard-picwrapp">
+            <div class="colcardbg-ratio">
+               <img src="img/firstpart3row-coll.png" alt="">
+          </div>
+        </div>
+     </div>
+<!-- pic space -->
+ 
+<div class="bs-card-body">
+<h3 class="coll-firstitle">
+  <span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+</h3>
+<h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+<p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+<p class="price">$ 50</p>
+</div>
+
+
+</div>
+<!-- card -->
+
+<div class="singlecard-coll">
+              
+  <!-- pic space -->
+    <div class="colcard-container">
+     <div class="colcard-picwrapp">
+        <div class="colcardbg-ratio">
+           <img src="img/firstpart32row-coll.png" alt="">
+      </div>
+    </div>
+ </div>
+<!-- pic space -->
+
+<div class="bs-card-body">
+<h3 class="coll-firstitle">
+<span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+</h3>
+<h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+<p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+<p class="price">$ 50</p>
+</div>
+
+
+</div>
+<!-- card -->
+
+<div class="singlecard-coll">
+              
+  <!-- pic space -->
+    <div class="colcard-container">
+     <div class="colcard-picwrapp">
+        <div class="colcardbg-ratio">
+           <img src="img/firstpart33row-coll.png" alt="">
+      </div>
+    </div>
+ </div>
+<!-- pic space -->
+
+<div class="bs-card-body">
+<h3 class="coll-firstitle">
+<span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+</h3>
+<h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+<p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+<p class="price">$ 50</p>
+</div>
+</div>
+<!-- card -->
+   </div> <!-- CARDS CONTAINER -->
+
+           <section class="notsure">
+                <div class="notsure-wrapper">
+                    <h4 class="notsure-title">Not sure where to begin? Use our regimen builder tool.</h4>
+                    <button>Build your regimen</button>
+                </div>
+           </section>
+
+           <!-- second part of cards -->
+            <div id="secondcardsection" class="card-collection-container">
+              <div class="singlecard-coll">
+              
+                <!-- pic space -->
+                  <div class="colcard-container">
+                   <div class="colcard-picwrapp">
+                      <div class="colcardbg-ratio">
+                         <img src="img/colection-secondcard.png" alt="">
+                    </div>
+                  </div>
+               </div>
+              <!-- pic space -->
+              
+              <div class="bs-card-body">
+              <h3 class="coll-firstitle">
+              <span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+              </h3>
+              <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+              <p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+              <p class="price">$ 50</p>
+              </div>
+              </div>
+              <!-- card -->
+
+              <div class="singlecard-coll">
+              
+                <!-- pic space -->
+                  <div class="colcard-container">
+                   <div class="colcard-picwrapp">
+                      <div class="colcardbg-ratio">
+                         <img src="img/secondcointainercoll-2.png" alt="">
+                    </div>
+                  </div>
+               </div>
+              <!-- pic space -->
+              
+              <div class="bs-card-body">
+              <h3 class="coll-firstitle">
+              <span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+              </h3>
+              <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+              <p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+              <p class="price">$ 50</p>
+              </div>
+              </div>
+              <!-- card -->
+
+              <div class="singlecard-coll">
+              
+                <!-- pic space -->
+                  <div class="colcard-container">
+                   <div class="colcard-picwrapp">
+                      <div class="colcardbg-ratio">
+                         <img src="img/secondcointainercoll-3.png" alt="">
+                    </div>
+                  </div>
+               </div>
+              <!-- pic space -->
+              
+              <div class="bs-card-body">
+              <h3 class="coll-firstitle">
+              <span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+              </h3>
+              <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+              <p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+              <p class="price">$ 50</p>
+              </div>
+              </div>
+              <!-- card -->
+
+              <div class="singlecard-coll">
+              
+                <!-- pic space -->
+                  <div class="colcard-container">
+                   <div class="colcard-picwrapp">
+                      <div class="colcardbg-ratio">
+                         <img src="img/secondcontainercoll-4.png" alt="">
+                    </div>
+                  </div>
+               </div>
+              <!-- pic space -->
+              
+              <div class="bs-card-body">
+              <h3 class="coll-firstitle">
+              <span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+              </h3>
+              <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+              <p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+              <p class="price">$ 50</p>
+              </div>
+              </div>
+              <!-- card -->
+
+              <div class="singlecard-coll">
+              
+                <!-- pic space -->
+                  <div class="colcard-container">
+                   <div class="colcard-picwrapp">
+                      <div class="colcardbg-ratio">
+                         <img src="img/secondcontainercoll-5.png" alt="">
+                    </div>
+                  </div>
+               </div>
+              <!-- pic space -->
+              
+              <div class="bs-card-body">
+              <h3 class="coll-firstitle">
+              <span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+              </h3>
+              <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+              <p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+              <p class="price">$ 50</p>
+              </div>
+              </div>
+              <!-- card -->
+
+              <div class="singlecard-coll">
+              
+                <!-- pic space -->
+                  <div class="colcard-container">
+                   <div class="colcard-picwrapp">
+                      <div class="colcardbg-ratio">
+                         <img src="img/secondcontainercoll-6.png" alt="">
+                    </div>
+                  </div>
+               </div>
+              <!-- pic space -->
+              
+              <div class="bs-card-body">
+              <h3 class="coll-firstitle">
+              <span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+              </h3>
+              <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+              <p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+              <p class="price">$ 50</p>
+              </div>
+              </div>
+              <!-- card -->
+            </div>
+
+            <div class="turnyourskinon">
+                     <!-- pic space -->
+                       <div class="turnyourskinon-container">
+                        <div class="turnyourskinon-picwrapp">
+                           <div class="turnyourskinonbg-ratio">
+                             <img src="img/turnyourskinon.png" alt="">
+                         </div>
+                       </div>
+                       <h5 class="turnys-title">Turn your skin on with <span class="times-light"><i>the C+Collagen Collection</i> </span> </h5>
+                        <button class="turnyourskinon-button">Shop the C+Collagen Collection</button>
+                    </div>
+            <!-- pic space -->
+            </div>
+
+             <!-- third part of cards -->
+             <div id="thirdcardsection" class="card-collection-container">
+                <!-- card content with javascript -->
+                <div class="singlecard-coll">
+              
+                  <!-- pic space -->
+                    <div class="colcard-container">
+                     <div class="colcard-picwrapp">
+                        <div class="colcardbg-ratio">
+                           <img src="img/rhirdrow-coll1.png" alt="">
+                      </div>
+                    </div>
+                 </div>
+                <!-- pic space -->
+                
+                <div class="bs-card-body">
+                <h3 class="coll-firstitle">
+                <span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+                </h3>
+                <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+                <p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+                <p class="price">$ 50</p>
+                </div>
+                </div>
+                <!-- card -->
+
+                <div class="singlecard-coll">
+              
+                  <!-- pic space -->
+                    <div class="colcard-container">
+                     <div class="colcard-picwrapp">
+                        <div class="colcardbg-ratio">
+                           <img src="img/thirdrow-coll2.png" alt="">
+                      </div>
+                    </div>
+                 </div>
+                <!-- pic space -->
+                
+                <div class="bs-card-body">
+                <h3 class="coll-firstitle">
+                <span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+                </h3>
+                <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+                <p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+                <p class="price">$ 50</p>
+                </div>
+                </div>
+                <!-- card -->
+
+                <div class="singlecard-coll">
+              
+                  <!-- pic space -->
+                    <div class="colcard-container">
+                     <div class="colcard-picwrapp">
+                        <div class="colcardbg-ratio">
+                           <img src="img/thirdrow-coll3.png" alt="">
+                      </div>
+                    </div>
+                 </div>
+                <!-- pic space -->
+                
+                <div class="bs-card-body">
+                <h3 class="coll-firstitle">
+                <span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span>
+                </h3>
+                <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b></h3>
+                <p class="coll-thirdtitle">Daily treatment for clinical results at home.</p>
+                <p class="price">$ 50</p>
+                </div>
+                </div>
+                <!-- card -->
+
+          </div>
+
+          <section class="notsure">
+            <div class="notsure-wrapper">
+                <h4 class="notsure-title">Book your complimentary consult with a skincare expert.</h4>
+                <button>Book consult now</button>
+            </div>
+       </section>
+
+             <!-- fourth part of cards -->
+             <div id="fourthcardsection" class="card-collection-container">
+                  <!-- card content with javascript -->
+             </div>
+
+             <!-- second turn your skin on -->
+             <div class="turnyourskinon">
+                <!-- pic space -->
+                  <div class="turnyourskinon-container">
+                   <div class="turnyourskinon-picwrapp">
+                      <div class="turnyourskinonbg-ratio">
+                        <img src="img/turnyson-second.png" alt="">
+                    </div>
+                  </div>
+                  <h5 class="turnys-title">Turn your skin on with <span class="times-light"><i>the C+Collagen Collection</i> </span> </h5>
+                   <button class="turnyourskinon-button">Shop the C+Collagen Collection</button>
+               </div>
+       <!-- pic space -->
+       </div>
+
+        <!-- fifth section of cards -->
+          
+     <div class="card-collection-container">
+                     <!-- card -->
+                     <div class="singlecard-coll">
+              
+                        <!-- pic space -->
+                          <div class="colcard-container">
+                           <div class="colcard-picwrapp">
+                              <div class="colcardbg-ratio">
+                                 <img src="img/fifth-coll2.png" alt="">
+                            </div>
+                          </div>
+                       </div>
+               <!-- pic space -->
+                   
+                    <div class="bs-card-body">
+                          <h3 class="coll-firstitle"><span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span></h3>
+                        <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b>  </h3>
+                         <p class="coll-thirdtitle">Daily treatment for clinical results at home. </p>
+                         <p class="price">$ 50</p>
+                    </div>
+               
+                </div>
+              <!-- card -->
+        
+         <!-- card -->
+               <div class="singlecard-coll">
+                      
+                <!-- pic space -->
+                  <div class="colcard-container">
+                   <div class="colcard-picwrapp">
+                      <div class="colcardbg-ratio">
+                         <img src="img/fifth-coll1.png" alt="">
+                    </div>
+                  </div>
+               </div>
+        <!-- pic space -->
+           
+            <div class="bs-card-body">
+                  <h3 class="coll-firstitle"><span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span></h3>
+                <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b>  </h3>
+                 <p class="coll-thirdtitle">Daily treatment for clinical results at home. </p>
+                 <p class="price">$ 50</p>
+            </div>
+        
+        </div>
+        <!-- card -->
+        
+         <!-- card -->
+         <div class="singlecard-coll">
+                      
+            <!-- pic space -->
+              <div class="colcard-container">
+               <div class="colcard-picwrapp">
+                  <div class="colcardbg-ratio">
+                     <img src="img/fifth-coll3.png" alt="">
+                </div>
+              </div>
+           </div>
+        <!-- pic space -->
+        
+        <div class="bs-card-body">
+              <h3 class="coll-firstitle"><span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span></h3>
+            <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b>  </h3>
+             <p class="coll-thirdtitle">Daily treatment for clinical results at home. </p>
+             <p class="price">$ 50</p>
+        </div>
+        
+        </div>
+        <!-- card -->
+            
+     </div>
+
+    
+        </section>
+
+        <img class="collection-shadow" src="img/shadow-in-collection.svg" alt="">
+      </section>   <!-- wrapper -->
+     
+    
+
+      <!-- FRECUENT ASKED QUESTIONS -->
+         <section class="faq-total">
+             <div class="button-title">
+                 <h2>Frequently asked questions</h2>
+                 <button>See all FAQS</button>
+             </div>
+             <div class="accordion-faq">
+
+                 <div class="content-faq">
+                     <div class="label"> <h4>Lorem ipsum dolor sit amet this is a question</h4> <img src="img/alphabeta-arrow.svg" alt=""></div>
+                         <div class="content">
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, accusantium nemo odit inventore aliquam iste iusto eaque rerum, eligendi voluptate velit esse ipsum modi nesciunt unde beatae quis possimus explicabo?</p>
+                         </div>
+                 </div>
+
+                 <div class="content-faq">
+                    <div class="label"> <h4>Lorem ipsum dolor sit amet this is a question</h4> <img src="img/alphabeta-arrow.svg" alt=""> </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, accusantium nemo odit inventore aliquam iste iusto eaque rerum, eligendi voluptate velit esse ipsum modi nesciunt unde beatae quis possimus explicabo?</p>
+                        </div>
+                </div>
+
+                <div class="content-faq">
+                    <div class="label">  <h4>Lorem ipsum dolor sit amet this is a question</h4> <img src="img/alphabeta-arrow.svg" alt=""></div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, accusantium nemo odit inventore aliquam iste iusto eaque rerum, eligendi voluptate velit esse ipsum modi nesciunt unde beatae quis possimus explicabo?</p>
+                        </div>
+                </div>
+
+                <div class="content-faq">
+                    <div class="label">  <h4>Lorem ipsum dolor sit amet this is a question</h4> <img src="img/alphabeta-arrow.svg" alt=""></div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, accusantium nemo odit inventore aliquam iste iusto eaque rerum, eligendi voluptate velit esse ipsum modi nesciunt unde beatae quis possimus explicabo?</p>
+                        </div>
+                </div>
+
+                <div class="content-faq">
+                    <div class="label"> <h4>Lorem ipsum dolor sit amet this is a question</h4> <img src="img/alphabeta-arrow.svg" alt="">  </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, accusantium nemo odit inventore aliquam iste iusto eaque rerum, eligendi voluptate velit esse ipsum modi nesciunt unde beatae quis possimus explicabo?</p>
+                        </div>
+                </div>
+
+                <div class="content-faq">
+                    <div class="label">  <h4>Lorem ipsum dolor sit amet this is a question</h4> <img src="img/alphabeta-arrow.svg" alt=""> </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, accusantium nemo odit inventore aliquam iste iusto eaque rerum, eligendi voluptate velit esse ipsum modi nesciunt unde beatae quis possimus explicabo?</p>
+                        </div>
+                </div>
+                 
+             </div>
+         </section>
+      <!-- FRECUENT ASKED QUESTIONS -->
+
+ 
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+ <!-- section that wraps all after the body  -->
+     
+  </section>
+
+ <script>
+   function addCard(e) { 
+
+          var cardCointainer= document.querySelector('#cardCointainer');
+          console.log(cardCointainer);
+          for (let i = 0; i < 3; i++) {
+             
+              cardCointainer.innerHTML+=` 
+              <div class="singlecard-coll">
+              
+              <!-- pic space -->
+                <div class="colcard-container">
+                 <div class="colcard-picwrapp">
+                    <div class="colcardbg-ratio">
+                       <img src="img/collection2.png" alt="">
+                  </div>
+                </div>
+             </div>
+     <!-- pic space -->
+         
+          <div class="bs-card-body">
+                <h3 class="coll-firstitle"><span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span></h3>
+              <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b>  </h3>
+               <p class="coll-thirdtitle">Daily treatment for clinical results at home. </p>
+               <p class="price">$ 50</p>
+          </div>
+     
+      </div>
+       <!-- card -->
+
+              `
+              
+          }
+        }
+
+
+        // secod part of cards 
+ function addCard2(e) { 
+
+var secondcardsection= document.querySelector('#secondcardsection');
+
+for (let i = 0; i < 6; i++) {
+   
+    secondcardsection.innerHTML+=` 
+    <div class="singlecard-coll">
+    
+    <!-- pic space -->
+      <div class="colcard-container">
+       <div class="colcard-picwrapp">
+          <div class="colcardbg-ratio">
+             <img src="img/colection-secondcard.png" alt="">
+        </div>
+      </div>
+   </div>
+<!-- pic space -->
+
+<div class="bs-card-body">
+      <h3 class="coll-firstitle"><span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span></h3>
+    <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b>  </h3>
+     <p class="coll-thirdtitle">Daily treatment for clinical results at home. </p>
+     <p class="price">$ 50</p>
+</div>
+
+</div>
+<!-- card -->
+
+    `
+    
+}
+}
+
+
+        // third part of cards 
+function addCard3(e) { 
+
+var thirdcardsection= document.querySelector('#thirdcardsection');
+
+for (let i = 0; i < 3; i++) {
+   
+    thirdcardsection.innerHTML+=` 
+    <div class="singlecard-coll">
+    
+    <!-- pic space -->
+      <div class="colcard-container">
+       <div class="colcard-picwrapp">
+          <div class="colcardbg-ratio">
+             <img src="img/third-coll-card.png" alt="">
+        </div>
+      </div>
+   </div>
+<!-- pic space -->
+
+<div class="bs-card-body">
+      <h3 class="coll-firstitle"><span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span></h3>
+    <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b>  </h3>
+     <p class="coll-thirdtitle">Daily treatment for clinical results at home. </p>
+     <p class="price">$ 50</p>
+</div>
+
+</div>
+<!-- card -->
+
+    `
+    
+}
+}
+addCard3()
+
+// fourth part of cards 
+        function addCard4(e) { 
+
+var fourthcardsection= document.querySelector('#fourthcardsection');
+
+for (let i = 0; i < 6; i++) {
+   
+    fourthcardsection.innerHTML+=` 
+    <div class="singlecard-coll">
+    
+    <!-- pic space -->
+      <div class="colcard-container">
+       <div class="colcard-picwrapp">
+          <div class="colcardbg-ratio">
+             <img src="img/fourth-coll-card.png" alt="">
+        </div>
+      </div>
+   </div>
+<!-- pic space -->
+
+<div class="bs-card-body">
+      <h3 class="coll-firstitle"><span><i class="fas fa-star"></i></span> <span class="space">.</span> <strong>4.8</strong> <span class="_num">(544)</span></h3>
+    <h3 class="coll-secondtitle"><b>Alpha Beta® Extra Strength Daily Peel (30 Pack)</b>  </h3>
+     <p class="coll-thirdtitle">Daily treatment for clinical results at home. </p>
+     <p class="price">$ 50</p>
+</div>
+
+</div>
+<!-- card -->
+
+    `
+    
+}
+}
+addCard4()
+
+////////////  side menu logic
+var checkbox= document.querySelectorAll('.check')
+var chosen= document.getElementById('filterSelected')
+var arrow= false;
+var check= false;
+$(document).ready(function () {
+  $('#filterSelected').hide();
+  $('#clearFilter').hide();
+  $('#circle1').hide();
+
+  $('#skc').click(function (e) {  
+    
+    $('#sideMenu').toggle()
+
+      arrow= !arrow;
+    if (arrow) {
+      $('.coll-arrowup').attr('src', 'img/colap-arrowup.svg')
+    } else {
+      $('.coll-arrowup').attr('src', 'img/colap-arrowdown.svg')
+    }
+
+  })
+ $.each(checkbox, function (i, item) { 
+    var imgs= item.firstChild;
+    
+      imgs.addEventListener('click', function (e) { 
+         
+               $.each(checkbox, function (i, item) { 
+                 var imgs= item.firstChild;
+                 imgs.src= 'img/check-coll.svg';
+
+               });
+               
+          $(this).attr('src', 'img/Checkbox-coll.svg');
+       
+          textt= item.lastChild.innerText;
+         
+
+          $('#filterSelected').show();
+          filterSelected.innerHTML=textt;
+          //
+          if (document.getElementById("filterSelected").innerHTML != '') {
+              $('#circle1').show();
+              $('#clearFilter').show(); 
+     }
+     
+    });
+   // log del item  test test test tttttttttttt
+
+    item.addEventListener('click', function (e) { 
+      if (item.matches(".lf")) {
+       console.log('coincide con lf');
+    } else {
+       console.log('no coincide');
+    }
+     })
+  
+ });
+
+ // logic from the clear button 
+ $('#clearFilter').click(restore)
+
+  function restore(e) {
+    
+    $('#sideMenu').hide();
+    $('#circle1').hide();
+    document.getElementById("filterSelected").innerHTML = '';
+    $('#filterSelected').hide();
+    $.each(checkbox, function (i, item) {
+      
+       item.firstChild.src= 'img/check-coll.svg';
+       
+     
+    });
+    $('#clearFilter').hide()
+  };
+
+});
+
+///////////////////////////////////////////////
+////////////  side menu logic for type tag
+var checkbox2= document.querySelectorAll('.check2')
+var picked= document.getElementById('picked')
+var arrow2= false;
+var check= false;
+$(document).ready(function () {
+  $('#picked').hide();
+  $('#clearFilter').hide();
+  $('#circle2').hide();
+
+  $('#categ').click(function (e) {  
+    
+    $('#sideMenu2').toggle()
+
+    arrow2= !arrow2;
+    if (arrow2) {
+      $('.coll-arrowup2').attr('src', 'img/colap-arrowup.svg')
+    } else {
+      $('.coll-arrowup2').attr('src', 'img/colap-arrowdown.svg')
+    }
+
+  })
+
+ $.each(checkbox2, function (i, item) { 
+    var imgs= item.firstChild;
+    
+      imgs.addEventListener('click', function (e) { 
+        
+               $.each(checkbox2, function (i, item) { 
+                 var imgs= item.firstChild;
+                 imgs.src= 'img/check-coll.svg';
+
+               });
+              
+          $(this).attr('src', 'img/Checkbox-coll.svg');
+        
+          textt= item.lastChild.innerText;
+         
+
+          $('#picked').show();
+          picked.innerHTML=textt;
+          //
+          if (document.getElementById("picked").innerHTML != '') {
+              $('#circle2').show();
+             $('#clearFilter').show(); //show
+          }
+        
+        
+      });
+ });
+
+ // logic from the clear button 
+ $('#clearFilter').click(restore)
+
+  function restore(e) {
+    
+    $('#sideMenu2').hide();
+    $('#circle2').hide();
+    document.getElementById("picked").innerHTML = '';
+    $('#picked').hide();
+    $.each(checkbox2, function (i, item) {
+      
+       item.firstChild.src= 'img/check-coll.svg';
+       
+    });
+
+    $('#clearFilter').hide()
+  };
+
+});
+
+
+      </script>
+
+
+    <script src="app.js"></script>
+    <script src="all.min.js"></script>
+</body>
+</html>

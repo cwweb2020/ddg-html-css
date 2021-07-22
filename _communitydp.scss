@@ -1,0 +1,92 @@
+.comun-total{
+    width: 1280px;
+    z-index: 100;
+    background: white;
+    position: absolute;
+    top: 0;
+    padding-top: 37px;
+
+    background: #FFFDFB;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06);
+
+    display: none;
+
+  .bothcomun-container{  
+      width: 1064px;
+      height: 325px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      background-color: #FFFDFB;
+
+
+     .featurecomun-wrapper{
+      //   height: 366px;
+       
+
+             .featurecomun-pics{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 99px;
+
+                .featurecomun-box1{
+                     display: flex;
+                     flex-direction: column;
+
+                     .comun-container{
+                        width: 200px;
+                        overflow: hidden;
+                        position: relative;
+                    
+                        .comun-picwrapp{
+                            padding-top: calc((200px * 107.5) / 100);
+                            display: block;
+                           
+                        }
+                    
+                        .comunbg-ratio{
+                              position: absolute;
+                              top: 0;
+                              left: 0;
+                              bottom: 0;
+                              right: 0;
+                              width: 100%;
+
+                              img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                    
+
+                    }
+
+                     h2{
+                        text-align: center;
+                        margin-top: 16px;
+                        font-weight: 800;
+                        font-size: 14px;
+                        color: #3A3D3F;
+                     }
+                }
+                .box5{
+                   .comun-container{
+                       background-color: #FF671F;
+                       background: radial-gradient(66.76% 143.45% at 42.5% 52.19%, rgba(255, 255, 255, 0) 35.42%, #EEB8A7 100%), #FF671F;
+                   }
+                   .__script{
+                       position: absolute;
+                       bottom: 75.67px;
+                       left: 30px;
+
+                   }
+                }
+             }
+
+     }
+
+
+
+   }
+}

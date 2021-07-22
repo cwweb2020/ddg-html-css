@@ -1,0 +1,79 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4094418, 2021-05-26T15:51:17-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: TimesNow-ExtraBold by JHA
+ * URL: https://www.myfonts.com/fonts/jha/times-now/extra-bold/
+ * 
+ * Webfont: TimesNow-ExtraBoldIT by JHA
+ * URL: https://www.myfonts.com/fonts/jha/times-now/extra-bold-it/
+ * 
+ * Webfont: TimesNow-Light by JHA
+ * URL: https://www.myfonts.com/fonts/jha/times-now/light/
+ * 
+ * Webfont: TimesNow-Bold by JHA
+ * URL: https://www.myfonts.com/fonts/jha/times-now/bold/
+ * 
+ * Webfont: TimesNow-ExtraLight by JHA
+ * URL: https://www.myfonts.com/fonts/jha/times-now/extra-light/
+ * 
+ * Webfont: TimesNow-SemiBold by JHA
+ * URL: https://www.myfonts.com/fonts/jha/times-now/semi-bold/
+ * 
+ * Webfont: TimesNow-SemiLight by JHA
+ * URL: https://www.myfonts.com/fonts/jha/times-now/semi-light/
+ * 
+ * Webfont: TimesNow-LightIT by JHA
+ * URL: https://www.myfonts.com/fonts/jha/times-now/light-it/
+ * 
+ * Webfont: TimesNow-SemiLightIT by JHA
+ * URL: https://www.myfonts.com/fonts/jha/times-now/semi-light-it/
+ * 
+ * Webfont: TimesNow-ExtraLightIT by JHA
+ * URL: https://www.myfonts.com/fonts/jha/times-now/extra-light-it/
+ * 
+ * Webfont: TimesNow-BoldIT by JHA
+ * URL: https://www.myfonts.com/fonts/jha/times-now/bold-it/
+ * 
+ * Webfont: TimesNow-SemiBoldIT by JHA
+ * URL: https://www.myfonts.com/fonts/jha/times-now/semi-bold-it/
+ * 
+ * 
+ * Webfonts copyright: Copyright (c) 2014 by Jan Henrik Arnold. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+@font-face {
+  font-family: "TimesNow-SemiBoldIT";
+  src: url('webFonts/TimesNowSemiBoldIT/font.woff2') format('woff2'), url('webFonts/TimesNowSemiBoldIT/font.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: "TimesNow-SemiLight";
+  src: url('TimesNowSemiLight.woff2') format('woff2'), url('TimesNowSemiLight.woff') format('woff');
+}
+@font-face {
+  font-family: "TimesNow-SemiBold";
+  src: url('webFonts/TimesNowSemiBold/font.woff2') format('woff2'), url('webFonts/TimesNowSemiBold/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "TimesNow-SemiLightIT";
+  src: url('webFonts/TimesNowSemiLightIT/font.woff2') format('woff2'), url('webFonts/TimesNowSemiLightIT/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TimesNow-Light";
+  src: url('times-light.woff2') format('woff2'), url('times-light.woff') format('woff');
+}
+

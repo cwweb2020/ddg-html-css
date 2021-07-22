@@ -1,0 +1,94 @@
+.hero-total{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        background: radial-gradient(113.98% 113.98% at 50% 50%, rgba(255, 255, 255, 0) 35.42%, #d8cbc7 100%), #FF671F;
+       //background-color: $herobackg;
+      
+  
+         .herowrapper{
+             height: 608px;
+             display: flex;
+  
+  
+                .overhero-pic{
+                    flex-basis: 50%;
+                    display: flex;
+                    justify-content: flex-end;
+                    
+  
+                      img{
+                          width: 503px;
+                          height: 659px;
+                          margin-top: 32px;
+                        
+                      }
+                }
+                .product-categories{
+                    flex-basis: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                   
+  
+                .hero-discover{
+                            color: white;
+                           // font-family: monospace;
+                            text-align: center;
+                        }
+  
+                         .hero-text{
+                              display: flex;
+                              flex-direction: column;
+                              align-items: center;
+                              margin: 25px;
+  
+                            .hero-want{
+                                font-size: 78px;
+                                color: white;
+                                font-weight: 300;
+                                font-family: $times-sem-light;
+                                line-height: 82px;
+                                font-weight: 500;
+                              }
+                             
+  
+                         }
+                         .hero-btn{
+                            display: flex;
+                            justify-content: center;
+                              
+                                button{
+                                  width: 195px;
+                                  height: 51px;
+                                  background: radial-gradient(48.42% 917.53% at 50% 62.75%, rgba(255, 255, 255, 0.26) 0%, rgba(255, 255, 255, 0) 100%);
+                                  border: 2px solid #ffffffa6;
+                                  color: white;
+                                  font-weight: 800;
+                                  border-radius: 3px;
+                                  margin-top: 15px;
+                                }
+                         }
+              }
+               
+         }
+         .subhero{
+             background-color: #FF671F;
+             width: 50%;
+             height: 83px;
+             float: right;
+             display: flex;
+             justify-content: center;
+  
+                 a{
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     color: white;
+                     text-decoration: none;
+                     
+                 }
+         }
+        
+  }
+ 
